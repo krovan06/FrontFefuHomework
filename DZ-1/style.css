@@ -6,7 +6,6 @@
 .HeaderContentContainer {
   width: 100%;
   height: 20vh;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,6 +42,7 @@
 }
 
 .MainContentBlock {
+  padding: 10px;
   height: 100%;
   width: 60%;
   background-color: aliceblue;
@@ -72,7 +72,6 @@
 .FooterContentContainer {
   width: 100%;
   height: 15vh;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
