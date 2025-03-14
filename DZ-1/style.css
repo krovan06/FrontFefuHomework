@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.HeaderContentContainer {
+  width: 100%;
+  height: 20vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContetBlock {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.MainContentContainer {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+.ArrayBlock {
+  height: 100%;
+  width: 20%;
+  background-color: rgb(6, 6, 31);
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  color: aliceblue;
+  gap: 10px;
+  padding: 10px;
+}
+
+.MainContentBlock {
+  height: 100%;
+  width: 60%;
+  background-color: aliceblue;
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainActiveBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.HideText {
+  display: none;
+}
+
+.ShowText {
+  display: block;
+}
+
+.FooterContentContainer {
+  width: 100%;
+  height: 15vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
